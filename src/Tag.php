@@ -12,6 +12,7 @@ use Spatie\EloquentSortable\Sortable;
 use Spatie\EloquentSortable\SortableTrait;
 use Spatie\Translatable\HasTranslations;
 
+/** My cool new feature!!! **/
 class Tag extends Model implements Sortable
 {
     use SortableTrait;
