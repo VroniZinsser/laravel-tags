@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.0",
         "laravel/framework": "^8.67|^9.0",
         "spatie/eloquent-sortable": "^3.10|^4.0",
         "spatie/laravel-package-tools": "^1.4",
@@ -51,5 +51,15 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "laraveltags": {
+            "type": "vcs",
+            "url": "https://github.com/VroniZinsser/laravel-tags"
+        },
+        "laravel-tags": {
+            "type": "vcs",
+            "url": "https://github.com/VroniZinsser/laravel-tags"
+        }
+    }
 }
